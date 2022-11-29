@@ -11,7 +11,6 @@ env:
 jobs:
   test:
     environment: testing
-    runs-on: ubuntu-latest
     container:
       image: node:16
       env: 
