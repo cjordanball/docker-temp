@@ -31,7 +31,7 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v3
       - name: Cache dependencies
-        uses: actions/cache@v3 d
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ env.CACHE_KEY }}-${{ hashFiles('**/package-lock.json') }}
